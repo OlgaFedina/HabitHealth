@@ -21,19 +21,38 @@ namespace App1
         {
             //gets name of button that was pressed
             String btnSource = (sender as Button).Text;
-            ArrayList nextSet = parseList(btnSource + ".txt"); //replace with database queries
+            ArrayList nextSet = parseList("textfiles/" + btnSource + ".txt"); //replace with database queries
             
+            //create new layout stack
             var layout = new StackLayout();
-            var btn = new Button { Text = btnSource, FontSize = 30, TranslationY = 30 };
+            
+            //add appropriate number of buttons to layout stack
+            foreach (String element in nextSet)
+            {   
+                var btn = new Button { Text = element, FontSize = 30, TranslationY = 30};
+                btn.Clicked += new EventHandler(NewLayout);
+                
+                layout.Children.Add(btn);
+            }
+            
+            //set temporary layout stack to active one to display new button set
             this.Content = layout;
-            layout.Children.Add(btn);
+            
         }
-
+        
+        //redundant method, but is for the purpose of isolating the data input method. once db is integrated, it will be removed.
+        //takes in filename, stores it in array, then translates to arraylist
         private ArrayList parseList(String filename)
         {
             ArrayList temp = new ArrayList();
-            
-            
+            String[] file = System.IO.File.ReadAllLines(filename);
+
+            foreach (String element in file)
+            {
+                temp.Add(element);
+            }
+
+            return temp;
         }
     }
 }
