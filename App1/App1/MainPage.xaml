@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+        <!-- Place new controls here -->
+        
+        <Button Clicked="ScClicked" ImageSource="App1/App1/images/profilepic.jpg" Text="Symptom Checker"></Button>
+        <Button Clicked="HaqClicked" ImageSource="images/profilepic.jpeg" Text="Health Assessment Questionnaire"></Button>
+        
+        
+    </StackLayout>
+
+</ContentPage>

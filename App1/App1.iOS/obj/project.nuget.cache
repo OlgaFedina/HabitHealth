@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zS1AjihSe6zN4QU5caDFata3O15c1kmEujA/EfGPt6FDyQgYX+iErpWgXrWkq9GHzWldXd02zuAYnaUqIQqxRA==",
+  "success": true,
+  "projectFilePath": "/Users/olgafedina/RiderProjects/App1/App1/App1.iOS/App1.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/olgafedina/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ROeni0Pb3v5qMcU3gHbIQA/9QTTTKJUGP9RzeUPjUmR54k4qlVDvX7ghK5dn6uGkI9TH//Q17Q71gt72GzwfBg==",
+  "success": true,
+  "projectFilePath": "/Users/olgafedina/RiderProjects/App1/App1/App1/App1.csproj",
+  "expectedPackageFiles": [
+    "/Users/olgafedina/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/olgafedina/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/olgafedina/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
