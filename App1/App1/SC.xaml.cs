@@ -21,16 +21,22 @@ namespace App1
         {
             //gets name of button that was pressed
             String btnSource = (sender as Button).Text;
-            ArrayList nextSet = parseList("textfiles/" + btnSource + ".txt"); //replace with database queries
+            ArrayList nextSet = parseList(btnSource + ".txt"); //replace with database queries
             
             //create new layout stack
             var layout = new StackLayout();
+            layout.HorizontalOptions = LayoutOptions.Center;
+            layout.VerticalOptions = LayoutOptions.CenterAndExpand;
             
             //add appropriate number of buttons to layout stack
             foreach (String element in nextSet)
             {   
-                var btn = new Button { Text = element, FontSize = 30, TranslationY = 30};
+                var btn = new Button { Text = element }; //, FontSize = 30, TranslationY = 30};
                 btn.Clicked += new EventHandler(NewLayout);
+                btn.CornerRadius = 5;
+                btn.Background = Brush.Aqua;
+                btn.BorderWidth = 3;
+                btn.BorderColor = Color.Blue;
                 
                 layout.Children.Add(btn);
             }

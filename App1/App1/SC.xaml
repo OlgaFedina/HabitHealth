@@ -9,16 +9,16 @@
             <Label Text="Symptom Checker!"/>
             <Label Text="Select Problem Area"/>
             
-            <Button Text="head" Clicked="NewLayout" Margin="00"/>
-            <Button Text="neck" Clicked="NewLayout" Margin="00" />
-            <Button Text="chest" Clicked="NewLayout" Margin="00"/>
-            <Button Text="arms" Clicked="NewLayout" Margin="00"/>
-            <Button Text="stomach" Clicked="NewLayout" Margin="00"/>
-            <Button Text="pelvis" Clicked="NewLayout" Margin="00"/>
-            <Button Text="back" Clicked="NewLayout" Margin="00"/>
-            <Button Text="legs" Clicked="NewLayout" Margin="00"/>
+            <Button Text="head" Clicked="NewLayout" Margin="00" CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
+            <Button Text="neck" Clicked="NewLayout" Margin="00"  CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
+            <Button Text="chest" Clicked="NewLayout" Margin="00" CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
+            <Button Text="arms" Clicked="NewLayout" Margin="00" CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
+            <Button Text="stomach" Clicked="NewLayout" Margin="00" CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
+            <Button Text="pelvis" Clicked="NewLayout" Margin="00" CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
+            <Button Text="back" Clicked="NewLayout" Margin="00" CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
+            <Button Text="legs" Clicked="NewLayout" Margin="00" CornerRadius = "5" BackgroundColor = "Aqua" BorderWidth = "3" BorderColor = "Color.Blue" />
             
-            <Button Text="add" Clicked="NewLayout"/>
+            <Button Text="submit" Clicked="NewLayout"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

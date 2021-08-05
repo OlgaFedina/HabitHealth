@@ -8,9 +8,13 @@
                  VerticalOptions="CenterAndExpand">
         <!-- Place new controls here -->
         
-        <Button Clicked="ScClicked" ImageSource="App1/App1/images/profilepic.jpg" Text="Symptom Checker"></Button>
-        <Button Clicked="HaqClicked" ImageSource="images/profilepic.jpeg" Text="Health Assessment Questionnaire"></Button>
+        <Image Source= "login_page_background.jpg" Aspect="AspectFill" Opacity=".6"/>
         
+        <Button Clicked="ScClicked" ImageSource="stethoscope.jpeg" Text="Symptom Checker" WidthRequest="200" HeightRequest="200"></Button>
+        <Label HorizontalOptions="Center" >Symptom Checker</Label>
+        
+        <Button Clicked="HaqClicked" ImageSource="handsheart.jpeg" Text="Health Assessment Questionnaire" WidthRequest="220" HeightRequest="220"></Button>
+        <Label HorizontalOptions="Center" >Health Assessment Questionnaire</Label>
         
     </StackLayout>
 

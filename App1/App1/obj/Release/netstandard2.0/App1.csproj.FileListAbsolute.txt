@@ -1,0 +1,15 @@
+/Users/olgafedina/RiderProjects/App1/App1/App1/bin/Release/netstandard2.0/App1.deps.json
+/Users/olgafedina/RiderProjects/App1/App1/App1/bin/Release/netstandard2.0/App1.dll
+/Users/olgafedina/RiderProjects/App1/App1/App1/bin/Release/netstandard2.0/App1.pdb
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/App1.csproj.AssemblyReference.cache
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/HAQ.xaml.g.cs
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/ResultsPage.xaml.g.cs
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/SC.xaml.g.cs
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/App1.AssemblyInfoInputs.cache
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/App1.AssemblyInfo.cs
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/App1.csproj.CoreCompileInputs.cache
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/XamlC.stamp
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/App1.dll
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Release/netstandard2.0/App1.pdb

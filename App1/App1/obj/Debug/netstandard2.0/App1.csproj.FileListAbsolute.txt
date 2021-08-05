@@ -12,3 +12,4 @@
 /Users/olgafedina/RiderProjects/App1/App1/App1/obj/Debug/netstandard2.0/App1.pdb
 /Users/olgafedina/RiderProjects/App1/App1/App1/obj/Debug/netstandard2.0/HAQ.xaml.g.cs
 /Users/olgafedina/RiderProjects/App1/App1/App1/obj/Debug/netstandard2.0/SC.xaml.g.cs
+/Users/olgafedina/RiderProjects/App1/App1/App1/obj/Debug/netstandard2.0/ResultsPage.xaml.g.cs
